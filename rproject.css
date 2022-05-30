@@ -1,0 +1,167 @@
+.bg{
+    height: 50vh;
+   background-color: black;
+    background-size: cover;
+    
+}
+
+  
+   
+   
+  
+
+.btn{
+   margin-top: 1px;
+   margin-left: 530px;
+   
+}
+.eli{
+  
+    color: rgb(7, 7, 7);
+   padding-left: 558px;
+   padding-top:px;
+   font-weight: bolder;
+   font-size: 20px;
+   
+}
+
+
+
+.scrolldown{
+    position:absolute;
+    bottom: -20px;
+    left: 49.5%;
+    width:20px;
+    height: 20px;
+    
+    transform: translateY(-50px) translateX(-50%)
+    rotate(45deg);
+}
+.scrolldown span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+   border-bottom: 3px solid rgb(222, 218, 218);
+   border-right: 2px solid rgb(222, 218, 218);
+   animation: animate 1.5s linear infinite;
+   opacity: 0;
+}
+
+@keyframes animate{
+    0%
+    {
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    30%
+    {
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+.logo{
+    background-color: black;
+   
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  
+}
+.parent {
+    width: 100%;
+    height: 50px;
+    
+    overflow-x: auto;
+    margin-right: 55px;
+   
+}
+
+
+ 
+.child1{
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+    color: rgb(231, 226, 226);
+    font-weight: lighter;
+    margin-right: 50px;
+   
+    
+
+
+}
+.child2{
+    display: inline;
+    color:rgb(245, 243, 243)#fff;
+    
+    font-weight: lighter;
+    margin-right: 50px;
+    
+   
+   
+    
+
+}
+.child3{
+    display: inline;
+    color: rgb(7, 6, 6);
+    font-weight: lighter;
+    padding-left: 15px;
+    margin-right: 80px;
+   
+    
+}  
+
+@import "utilities";
+.nav-link{
+    color: rgb(0, 0, 0);
+   
+}
+.top{
+   
+    height: 50vh;
+    background-color:black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 26px;
+    
+}
+.btn{
+
+    margin-left: -1px;
+    
+}
+.kailasa{
+    text-align: center;
+    font-size: 44px;
+}
+.container{
+    text-align: center;
+    margin-top: 303px;
+    font-weight: lighter;
+    color: white;
+}
+
+.dropdown-menu{
+background: transparent;
+
+}
+
+.dropdown-item{
+    color: white;
+    font-weight: lighter;
+
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.your-centered-div {
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+}
+.scrolldown{
+    position:absolute;
+    bottom: 80px;
+    left: 49.5%;
+    width:20px;
+    height: 20px;
+    
+    transform: translateY(-50px) translateX(-50%)
+    rotate(45deg);
+}
+.scrolldown span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+   border-bottom: 3px solid rgb(222, 218, 218);
+   border-right: 2px solid rgb(222, 218, 218);
+   animation: animate 1.5s linear infinite;
+   opacity: 0;
+}
+
+@keyframes animate{
+    0%
+    {
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    30%
+    {
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+}
+
